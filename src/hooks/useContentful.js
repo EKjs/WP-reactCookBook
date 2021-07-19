@@ -14,8 +14,8 @@ const useContentful = ({skip,contentType,id,limit}) => {
         console.log('Sending request to contentful...');
 
         const opt={
-            space:process.env.REACT_APP_CONTENTFUL_SPACE_ID,
-            tkn:`access_token=${process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN}`,
+            space:'fadr7yw634uj',
+            tkn:'access_token=NBHmeMI5XvdDHu6omsEMrabzvaL09Sqp_Ngg5vLKGmA',
         };
         const url=`https://cdn.contentful.com/spaces/${opt.space}`;
         
